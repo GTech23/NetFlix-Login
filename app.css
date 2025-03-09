@@ -184,3 +184,9 @@ form {
     padding: 1rem 1rem;
   }
 }
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .links {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
